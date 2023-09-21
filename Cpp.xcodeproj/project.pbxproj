@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		92ABE18E2ABCD61F0017310B /* Input_Output.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92ABE18D2ABCD61F0017310B /* Input_Output.cpp */; };
+		92ABE1912ABCD7D10017310B /* Arithmetic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92ABE1902ABCD7D10017310B /* Arithmetic.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +28,7 @@
 		92ABE1822ABCCD270017310B /* HelloWorld.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HelloWorld.cpp; sourceTree = "<group>"; };
 		92ABE1852ABCCDB80017310B /* HelloWorld(without_namespace).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "HelloWorld(without_namespace).cpp"; sourceTree = "<group>"; };
 		92ABE18D2ABCD61F0017310B /* Input_Output.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Input_Output.cpp; sourceTree = "<group>"; };
+		92ABE1902ABCD7D10017310B /* Arithmetic.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Arithmetic.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +61,7 @@
 		92ABE16C2ABCC1220017310B /* Cpp */ = {
 			isa = PBXGroup;
 			children = (
+				92ABE18F2ABCD71B0017310B /* 03_Arithmetic */,
 				92ABE18C2ABCD5F90017310B /* 02_Input_Output */,
 				92ABE17E2ABCC8FB0017310B /* 00_CodeFlow */,
 				92ABE1742ABCC2450017310B /* 01_HelloWorld */,
@@ -90,6 +92,14 @@
 				92ABE18D2ABCD61F0017310B /* Input_Output.cpp */,
 			);
 			path = 02_Input_Output;
+			sourceTree = "<group>";
+		};
+		92ABE18F2ABCD71B0017310B /* 03_Arithmetic */ = {
+			isa = PBXGroup;
+			children = (
+				92ABE1902ABCD7D10017310B /* Arithmetic.cpp */,
+			);
+			path = 03_Arithmetic;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,7 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92ABE18E2ABCD61F0017310B /* Input_Output.cpp in Sources */,
+				92ABE1912ABCD7D10017310B /* Arithmetic.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
