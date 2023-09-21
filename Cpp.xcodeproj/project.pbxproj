@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		92ABE16E2ABCC1220017310B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92ABE16D2ABCC1220017310B /* main.cpp */; };
+		92ABE1872ABCCDB80017310B /* HelloWorld(without_namespace).cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92ABE1852ABCCDB80017310B /* HelloWorld(without_namespace).cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,9 @@
 
 /* Begin PBXFileReference section */
 		92ABE16A2ABCC1220017310B /* Cpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Cpp; sourceTree = BUILT_PRODUCTS_DIR; };
-		92ABE16D2ABCC1220017310B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		92ABE17F2ABCC9240017310B /* CodeFlow.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CodeFlow.cpp; sourceTree = "<group>"; };
+		92ABE1822ABCCD270017310B /* HelloWorld.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HelloWorld.cpp; sourceTree = "<group>"; };
+		92ABE1852ABCCDB80017310B /* HelloWorld(without_namespace).cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "HelloWorld(without_namespace).cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +59,27 @@
 		92ABE16C2ABCC1220017310B /* Cpp */ = {
 			isa = PBXGroup;
 			children = (
-				92ABE16D2ABCC1220017310B /* main.cpp */,
+				92ABE17E2ABCC8FB0017310B /* 00_CodeFlow */,
+				92ABE1742ABCC2450017310B /* 01_HelloWorld */,
 			);
 			path = Cpp;
+			sourceTree = "<group>";
+		};
+		92ABE1742ABCC2450017310B /* 01_HelloWorld */ = {
+			isa = PBXGroup;
+			children = (
+				92ABE1822ABCCD270017310B /* HelloWorld.cpp */,
+				92ABE1852ABCCDB80017310B /* HelloWorld(without_namespace).cpp */,
+			);
+			path = 01_HelloWorld;
+			sourceTree = "<group>";
+		};
+		92ABE17E2ABCC8FB0017310B /* 00_CodeFlow */ = {
+			isa = PBXGroup;
+			children = (
+				92ABE17F2ABCC9240017310B /* CodeFlow.cpp */,
+			);
+			path = 00_CodeFlow;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92ABE16E2ABCC1220017310B /* main.cpp in Sources */,
+				92ABE1872ABCCDB80017310B /* HelloWorld(without_namespace).cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
