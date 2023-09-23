@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		924B6AE22ABE2E9900B449CC /* Q3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 924B6AD62ABE2E7400B449CC /* Q3.cpp */; };
+		924B6AEF2ABEEAD500B449CC /* Q3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 924B6AEE2ABEEAD500B449CC /* Q3.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -44,6 +44,12 @@
 		924B6AD92ABE2E7400B449CC /* do_while.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = do_while.cpp; sourceTree = "<group>"; };
 		924B6ADA2ABE2E7400B449CC /* for_loop.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = for_loop.cpp; sourceTree = "<group>"; };
 		924B6ADB2ABE2E7400B449CC /* while_loop.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = while_loop.cpp; sourceTree = "<group>"; };
+		924B6AE42ABEE24900B449CC /* 3.1 Jumpsinloops.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "3.1 Jumpsinloops.pdf"; sourceTree = "<group>"; };
+		924B6AE52ABEE27600B449CC /* continue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = continue.cpp; sourceTree = "<group>"; };
+		924B6AE72ABEE39200B449CC /* break.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = break.cpp; sourceTree = "<group>"; };
+		924B6AEA2ABEE5AA00B449CC /* Q1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Q1.cpp; sourceTree = "<group>"; };
+		924B6AEC2ABEE7A300B449CC /* Q2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Q2.cpp; sourceTree = "<group>"; };
+		924B6AEE2ABEEAD500B449CC /* Q3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Q3.cpp; sourceTree = "<group>"; };
 		92ABE16A2ABCC1220017310B /* Cpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Cpp; sourceTree = BUILT_PRODUCTS_DIR; };
 		92ABE17F2ABCC9240017310B /* CodeFlow.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CodeFlow.cpp; sourceTree = "<group>"; };
 		92ABE1822ABCCD270017310B /* HelloWorld.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HelloWorld.cpp; sourceTree = "<group>"; };
@@ -119,6 +125,27 @@
 			path = QUESTION;
 			sourceTree = "<group>";
 		};
+		924B6AE32ABEE21800B449CC /* 06_Jumps */ = {
+			isa = PBXGroup;
+			children = (
+				924B6AE92ABEE59300B449CC /* Question */,
+				924B6AE52ABEE27600B449CC /* continue.cpp */,
+				924B6AE72ABEE39200B449CC /* break.cpp */,
+			);
+			path = 06_Jumps;
+			sourceTree = "<group>";
+		};
+		924B6AE92ABEE59300B449CC /* Question */ = {
+			isa = PBXGroup;
+			children = (
+				924B6AE42ABEE24900B449CC /* 3.1 Jumpsinloops.pdf */,
+				924B6AEA2ABEE5AA00B449CC /* Q1.cpp */,
+				924B6AEC2ABEE7A300B449CC /* Q2.cpp */,
+				924B6AEE2ABEEAD500B449CC /* Q3.cpp */,
+			);
+			path = Question;
+			sourceTree = "<group>";
+		};
 		92ABE1612ABCC1220017310B = {
 			isa = PBXGroup;
 			children = (
@@ -138,6 +165,7 @@
 		92ABE16C2ABCC1220017310B /* Cpp */ = {
 			isa = PBXGroup;
 			children = (
+				924B6AE32ABEE21800B449CC /* 06_Jumps */,
 				924B6AD32ABE2E7400B449CC /* 05_Loops */,
 				924B6A7D2ABDF04100B449CC /* 04_If_Else_Elseif */,
 				924B6A732ABD950400B449CC /* 0.5_DataType */,
@@ -241,7 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				924B6AE22ABE2E9900B449CC /* Q3.cpp in Sources */,
+				924B6AEF2ABEEAD500B449CC /* Q3.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
