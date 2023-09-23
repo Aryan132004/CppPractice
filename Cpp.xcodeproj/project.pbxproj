@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		924B6AF22ABEF7E500B449CC /* Switch_case.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 924B6AF12ABEF7E500B449CC /* Switch_case.cpp */; };
+		924B6AF72ABEFBC400B449CC /* Q2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 924B6AF62ABEFBC400B449CC /* Q2.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -51,6 +51,9 @@
 		924B6AEC2ABEE7A300B449CC /* Q2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Q2.cpp; sourceTree = "<group>"; };
 		924B6AEE2ABEEAD500B449CC /* Q3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Q3.cpp; sourceTree = "<group>"; };
 		924B6AF12ABEF7E500B449CC /* Switch_case.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Switch_case.cpp; sourceTree = "<group>"; };
+		924B6AF42ABEFA5400B449CC /* Q1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Q1.cpp; sourceTree = "<group>"; };
+		924B6AF62ABEFBC400B449CC /* Q2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Q2.cpp; sourceTree = "<group>"; };
+		924B6AF82ABEFD9700B449CC /* 3.2 Switch-Case statement.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "3.2 Switch-Case statement.pdf"; sourceTree = "<group>"; };
 		92ABE16A2ABCC1220017310B /* Cpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Cpp; sourceTree = BUILT_PRODUCTS_DIR; };
 		92ABE17F2ABCC9240017310B /* CodeFlow.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CodeFlow.cpp; sourceTree = "<group>"; };
 		92ABE1822ABCCD270017310B /* HelloWorld.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HelloWorld.cpp; sourceTree = "<group>"; };
@@ -150,9 +153,20 @@
 		924B6AF02ABEF7BD00B449CC /* 07_switch_case */ = {
 			isa = PBXGroup;
 			children = (
+				924B6AF32ABEFA3E00B449CC /* QUESTIONS */,
 				924B6AF12ABEF7E500B449CC /* Switch_case.cpp */,
 			);
 			path = 07_switch_case;
+			sourceTree = "<group>";
+		};
+		924B6AF32ABEFA3E00B449CC /* QUESTIONS */ = {
+			isa = PBXGroup;
+			children = (
+				924B6AF42ABEFA5400B449CC /* Q1.cpp */,
+				924B6AF62ABEFBC400B449CC /* Q2.cpp */,
+				924B6AF82ABEFD9700B449CC /* 3.2 Switch-Case statement.pdf */,
+			);
+			path = QUESTIONS;
 			sourceTree = "<group>";
 		};
 		92ABE1612ABCC1220017310B = {
@@ -279,7 +293,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				924B6AF22ABEF7E500B449CC /* Switch_case.cpp in Sources */,
+				924B6AF72ABEFBC400B449CC /* Q2.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
