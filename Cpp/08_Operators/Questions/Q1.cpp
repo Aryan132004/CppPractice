@@ -2,6 +2,7 @@
 using namespace std;
 int main()
 {
-    int a = 3 * (2++);
+    int b=2;
+    int a = 3 * b++;
     cout<<a;
 }
