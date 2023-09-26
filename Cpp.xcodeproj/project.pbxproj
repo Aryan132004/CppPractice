@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		924B6B402AC2DA3200B449CC /* Q7.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 924B6B3F2AC2DA3200B449CC /* Q7.cpp */; };
+		924B6B4A2AC2F3DC00B449CC /* Q2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 924B6B492AC2F3DC00B449CC /* Q2.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -79,6 +79,9 @@
 		924B6B3D2AC2D92A00B449CC /* Q6.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Q6.cpp; sourceTree = "<group>"; };
 		924B6B3F2AC2DA3200B449CC /* Q7.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Q7.cpp; sourceTree = "<group>"; };
 		924B6B412AC2DC9E00B449CC /* 6.2 Prime, Armstrong, Reverse a number.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "6.2 Prime, Armstrong, Reverse a number.pdf"; sourceTree = "<group>"; };
+		924B6B462AC2F19C00B449CC /* SYNTAX.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = SYNTAX.md; sourceTree = "<group>"; };
+		924B6B472AC2F1CD00B449CC /* Q1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Q1.cpp; sourceTree = "<group>"; };
+		924B6B492AC2F3DC00B449CC /* Q2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Q2.cpp; sourceTree = "<group>"; };
 		92ABE16A2ABCC1220017310B /* Cpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Cpp; sourceTree = BUILT_PRODUCTS_DIR; };
 		92ABE17F2ABCC9240017310B /* CodeFlow.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CodeFlow.cpp; sourceTree = "<group>"; };
 		92ABE1822ABCCD270017310B /* HelloWorld.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HelloWorld.cpp; sourceTree = "<group>"; };
@@ -280,6 +283,24 @@
 			path = Question;
 			sourceTree = "<group>";
 		};
+		924B6B422AC2F05F00B449CC /* 11_FUNCTION */ = {
+			isa = PBXGroup;
+			children = (
+				924B6B462AC2F19C00B449CC /* SYNTAX.md */,
+				924B6B432AC2F07200B449CC /* 01_Simple */,
+			);
+			path = 11_FUNCTION;
+			sourceTree = "<group>";
+		};
+		924B6B432AC2F07200B449CC /* 01_Simple */ = {
+			isa = PBXGroup;
+			children = (
+				924B6B472AC2F1CD00B449CC /* Q1.cpp */,
+				924B6B492AC2F3DC00B449CC /* Q2.cpp */,
+			);
+			path = 01_Simple;
+			sourceTree = "<group>";
+		};
 		92ABE1612ABCC1220017310B = {
 			isa = PBXGroup;
 			children = (
@@ -299,6 +320,7 @@
 		92ABE16C2ABCC1220017310B /* Cpp */ = {
 			isa = PBXGroup;
 			children = (
+				924B6B422AC2F05F00B449CC /* 11_FUNCTION */,
 				924B6B332AC0A46A00B449CC /* 10_play wtih numbers */,
 				924B6B0E2AC012D300B449CC /* 09_Pattern */,
 				924B6AF92ABF6E6700B449CC /* 08_Operators */,
@@ -407,7 +429,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				924B6B402AC2DA3200B449CC /* Q7.cpp in Sources */,
+				924B6B4A2AC2F3DC00B449CC /* Q2.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
