@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		92076CA32ACA009600C6CAF4 /* Q1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92076CA22ACA009600C6CAF4 /* Q1.cpp */; };
+		92076CA52ACA09E500C6CAF4 /* Q2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 92076CA42ACA09E500C6CAF4 /* Q2.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		92076CA22ACA009600C6CAF4 /* Q1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Q1.cpp; sourceTree = "<group>"; };
+		92076CA42ACA09E500C6CAF4 /* Q2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Q2.cpp; sourceTree = "<group>"; };
 		924B6A742ABD957900B449CC /* DataType.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DataType.cpp; sourceTree = "<group>"; };
 		924B6A762ABDA20500B449CC /* TypeModifiers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TypeModifiers.cpp; sourceTree = "<group>"; };
 		924B6A782ABDAA5E00B449CC /* Q1_Sum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Q1_Sum.cpp; sourceTree = "<group>"; };
@@ -113,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				92076CA22ACA009600C6CAF4 /* Q1.cpp */,
+				92076CA42ACA09E500C6CAF4 /* Q2.cpp */,
 			);
 			path = QUESTION;
 			sourceTree = "<group>";
@@ -461,7 +463,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92076CA32ACA009600C6CAF4 /* Q1.cpp in Sources */,
+				92076CA52ACA09E500C6CAF4 /* Q2.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
