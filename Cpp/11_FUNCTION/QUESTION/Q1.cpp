@@ -27,3 +27,4 @@ int main(){
     int j=BTD(n);
     cout<<j<<endl;
 }
+
